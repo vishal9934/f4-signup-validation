@@ -1,0 +1,65 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    border: 2px solid black;
+    outline: none;
+    background-color: black;
+    border-bottom: 1.5px solid white;
+
+}
+::placeholder{
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
+    
+}
+.signup{
+    /* margin: auto; */
+    margin-top: 5%;
+    
+}
+button{
+    width: 256px;
+    margin-top: 5%;
+    margin-left: 19.5%;
+    padding: 8px;
+    font-size: 24px;
+}
+h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 400;
+    margin-left: 19%;
+}
+body{
+    background-color: black;
+}
+input, select, textarea{
+    color: #f7eded;
+    font-size: 25px;
+}
+.error1{
+    color: red;
+    margin-left: 20%;
+    font-size: 20px;
+}
+.error2{
+    color: red;
+    margin-left: 20%;
+    font-size: 20px;
+}
+.error3{
+    color: red;
+    margin-left: 20%;
+    font-size: 20px;
+}
+.error4{
+    color: green;
+    margin-left: 20%;
+    font-size: 20px;
+}
