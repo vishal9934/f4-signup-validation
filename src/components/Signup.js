@@ -22,8 +22,8 @@ const [error4 , setError4]=useState("");
     
     //error for empty field
    let arr=Object.keys(userData);
-   let newArr="";
-   arr.map((item) => {
+   
+   arr.map((item)=> {
     if(userData[item]===""){
         setError1("Error: All The fields are mandatory");
     }
